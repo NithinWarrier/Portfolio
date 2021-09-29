@@ -1,0 +1,55 @@
+.container{
+    display: flex;   
+    align-items: center;
+    justify-content: center; 
+}
+
+.nameField{
+    padding-left: 165px;
+    flex: 0.5;
+    font-weight: 500;
+    align-content: center;
+    font-size: 48px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.profile{
+    flex: 0.5;
+    
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.tagline{
+    color: #FF8E6E;
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: 400;
+}
+.links{
+    margin-top: 50px;
+}
+
+.linkItems{
+    fill: #FF8E6E;
+    margin-right: 50px;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+.scrolldown{
+    position: absolute;
+    bottom: 60px;
+    left: 150px;
+    color: rgba(81, 80, 112, 0.5);
+}

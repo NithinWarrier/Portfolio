@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.app{
+    height: 100vh;
+}
+
+.sections{
+    width: 100%;
+    height: calc(100vh - 90px);
+    position: relative;
+    top: 90px;
+    scroll-snap-type: y mandatory;
+
+    > *{
+        width: 100vw;
+        height: calc(100vh - 90px);
+        scroll-snap-align: start;
+    }
+    
+    
+}
